@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #103167;
+  }
+
+.text-content {
+    background: linear-gradient(270deg,#172641 2.87%,#14385c);
+    color: white;
+}
+
+.heading-bottom-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-bottom-border::after {
+    content: "";
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 5px;
+    display: block;
+    background: linear-gradient(88.15deg,#d6c07c .27%,#f7f2d4 47.51%,#d6c07c 93.77%);
+}
+
+.container img{
+    width: 200px; 
+    height: 200px;
+}
+
+.heading-bottom-border-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-bottom-border-2::after {
+    content: "";
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 5px;
+    display: block;
+    background: linear-gradient(88.15deg,#d6c07c .27%,#f7f2d4 47.51%,#d6c07c 93.77%);
+}
+
+.blue-text-2 {
+    color: #3777aa;
+    margin-top: 70px;
+}
+
+.dark-blue-text-2 {
+    color: #103167;
+    font-size: 48px;
+}
+
+.aykon img {
+    width: 118px;
+    height: 95px;
+}
+
+.aykon div {
+    flex: 1;
+    text-align: center;
+}
+
+.text-icon1 {
+    color: #103167;
+    font-size: 1.1rem;
+    line-height: 1.375rem;
+    letter-spacing: 0;
+    font-family: open-sans,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.text-icon {
+    color: grey;
+    font-size: 1.1rem;
+    line-height: 1.375rem;
+    letter-spacing: 0;
+    font-family: open-sans,Arial,sans-serif;
+    font-weight: 700;
+
+}
+
+.evmo {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 300px;
+}
+
+.evmo h2 {
+    color: #103167;
+}
+
+.evmo p {
+    color: #666;
+    padding-bottom: 300px;
+    padding-left: 70px;
+}
+
+.box {
+    background: linear-gradient(270deg,#172641 2.87%,#14385c);
+}
+
+.gambar-orang {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.gambar-orang img {
+    height: 170px;
+}
+
+.gambar-bawah img {
+    width: 250px;
+    margin-left: 50px;
+}
+
+#footer-teks1{
+    background: linear-gradient(270deg,#103167 2.87%,#3777aa);
+}
+
+.button-secondary-light .white-text {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-decoration: none;
+    font-family: open-sans,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.footer-grid {
+    display: flex;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .footer-grid div {
+    padding: 30px;
+  }
+  
+  .footer-grid li {
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .footer-grid p {
+    color: #666;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .footer-paling-bawah img{
+    width: 120px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: -30px;
+  }
+  
+  .footer-paling-bawah p{
+    margin-right: 420px;
+    font-size: 15px;
+}
+
+.very-large-select {
+    font-size: 16px;
+    color: grey;
+    padding: 10px;
+    border: 2px solid #0074e4; /* Border pertama */
+    height: 60px; /* Meningkatkan tinggi elemen untuk memperpanjang opsi */
+    width: 260px;
+}
